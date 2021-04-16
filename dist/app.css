@@ -27,7 +27,7 @@
 
 .btn--sign {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 .btn--sign:hover {
   background: white;
@@ -41,16 +41,47 @@
   background: #0d66d0;
 }
 
+.text__centered {
+  text-align: center;
+}
+
+.cnt-small {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.section__title {
+  font-size: 36px;
+}
+
+.section__par {
+  font-size: 18px;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.features-container img {
+  max-width: 50%;
+}
+.features-container .features-text {
+  width: 40%;
+  margin: 0 30px;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
 }
 
 .hero {
-  height: 500px;
+  height: 600px;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-position: center;
 }
 .hero h1 {
   color: #fff;
@@ -59,4 +90,16 @@ body {
   color: #fff;
   font-size: 22px;
   margin: 30px 0;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.features {
+  margin-top: 80px;
+}
+
+.features-container {
+  margin-bottom: 60px;
 }

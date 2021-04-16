@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+//mix
 .cnt-big {
   margin: 0 auto;
   max-width: $containerBig;
@@ -25,10 +26,9 @@
   font-size: $subTitleFont;
   font-weight: $fontBold;
 }
-
 .btn--sign {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   
   &:hover {
     background: white;
@@ -43,4 +43,36 @@
   background: $mainColorDark;
   }
 
+}
+
+.text__centered {
+  text-align: center;
+}
+
+.cnt-small {
+  margin: 0 auto;
+  width:$containerSmall;
+}
+
+.section__title {
+  font-size: $h3Font ;
+}
+
+.section__par {
+  font-size: $parFont;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+    & img {
+      max-width: $featuresImg;
+    }
+
+    & .features-text{
+      width: $featuresText;
+      margin: 0 30px;
+    }
 }
