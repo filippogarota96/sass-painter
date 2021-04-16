@@ -23,6 +23,7 @@
   padding: 10px 0;
   font-size: 22px;
   font-weight: 700;
+  transition: 0.5s background ease;
 }
 
 .text__centered {

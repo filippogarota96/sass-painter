@@ -25,6 +25,7 @@
   padding: 10px 0;
   font-size: $subTitleFont;
   font-weight: $fontBold;
+  transition: 0.5s background ease;
 }
 .text__centered {
   text-align: center;
@@ -56,11 +57,11 @@
     text-decoration: underline;
   }
 }
+
 //bottoni
 .btn--sign {
   background-color: transparent;
   border: 1px solid #fff;
-  
   &:hover {
     background: white;
     color: black;
@@ -76,7 +77,7 @@
 
 }
 
-
+//stile delle sezioni con immagini e testo
 .box {
   display: flex;
   align-items: center;
