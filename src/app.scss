@@ -1,5 +1,5 @@
-@import "Partials/common";
 @import "Partials/variables";
+@import "Partials/common";
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -7,5 +7,20 @@ body {
 
 .hero {
   height: 500px;
-  background-color: chartreuse;
+  background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  h1 {
+      color: #fff;
+    }
+
+  p {
+    color: #fff;
+    font-size: $subTitleFont;
+    margin: 30px 0;
+      
+  }
 }
+

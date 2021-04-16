@@ -6,10 +6,41 @@
 
 .cnt-big {
   margin: 0 auto;
-  width: $containerSmall;
+  max-width: $containerBig;
+  height: 100%;
+
+  .centered__y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
-h1 {
-  font-size: $h1Font;
+.btn {
+  border-radius: 20px;
+  border: none;
+  width: $btnWidth;
   color: #fff;
+  padding: 10px 0;
+  font-size: $subTitleFont;
+  font-weight: $fontBold;
+}
+
+.btn--sign {
+  background-color: transparent;
+  border: 2px solid #fff;
+  
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+
+.btn--primary {
+  background: $mainColor ;
+  
+  &:hover {
+  background: $mainColorDark;
+  }
+
 }
