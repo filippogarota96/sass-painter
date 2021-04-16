@@ -31,10 +31,14 @@ main {
 
 .features {
   margin-top: 80px;
-}
+  
+  .box {
+    margin-bottom: 60px;
+  }
+   
+  .box:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
 
-.features-container {
-
-  margin-bottom: 60px;
 
 }

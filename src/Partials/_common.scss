@@ -26,6 +26,37 @@
   font-size: $subTitleFont;
   font-weight: $fontBold;
 }
+.text__centered {
+  text-align: center;
+}
+
+.cnt-small {
+  margin: 0 auto;
+  width:$containerSmall;
+}
+
+.section__title {
+  font-size: $h3Font ;
+  margin: 30px 0;
+}
+
+.section__par {
+  font-size: $parFont;
+  margin-bottom: 30px;
+}
+
+.link {
+  padding: 30px 0;
+  
+  a {
+    color: $mainColor;
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+//bottoni
 .btn--sign {
   background-color: transparent;
   border: 1px solid #fff;
@@ -45,24 +76,8 @@
 
 }
 
-.text__centered {
-  text-align: center;
-}
 
-.cnt-small {
-  margin: 0 auto;
-  width:$containerSmall;
-}
-
-.section__title {
-  font-size: $h3Font ;
-}
-
-.section__par {
-  font-size: $parFont;
-}
-
-.features-container {
+.box {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -76,3 +91,5 @@
       margin: 0 30px;
     }
 }
+
+
